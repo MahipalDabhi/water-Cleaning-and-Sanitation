@@ -14,8 +14,8 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash") 
 
 # Set Streamlit page configuration
-st.set_page_config(page_title="Water & Sanitation AI Chatbot", page_icon="💧")
-st.title("💧 AI Chatbot: Water & Sanitation Awareness")
+st.set_page_config(page_title=" AquaSathi-Clean Water & Sanitation Chatbott", page_icon="💧")
+st.title("💧  AquaSathi-Clean Water & Sanitation Chatbots")
 st.markdown("Ask me anything about hygiene, clean water, or sanitation tips!")
 
 # --- Initialize chat history ---
